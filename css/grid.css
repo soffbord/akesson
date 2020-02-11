@@ -123,3 +123,5 @@ footer#two {
   footer {
     grid-column: 1/-1;
     grid-row: 8/9;
+    background-color: grey;
+  }
