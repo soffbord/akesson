@@ -1,3 +1,4 @@
+/* knappen som ligger längst ner till höger och som tar dig högst upp på sidan */
 mybutton = document.getElementById("myBtn");
 
 window.onscroll = function() {

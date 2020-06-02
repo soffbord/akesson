@@ -1,3 +1,4 @@
+/* text */
 .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr));
@@ -5,52 +6,61 @@
   grid-gap: 1px;
 }
 
+/* rubriken högst upp på alla sidor */
 header {
   grid-column: 1/13;
   grid-row: 1/2;
 }
 
+/* navbaren under rubriken på alla sidor */
 #myTopnav {
   grid-column: 1/13;
   grid-row: 2/3;
 }
 
+/* bild i index */
 nav {
   grid-column: 1/7;
   grid-row: 3/4;
 }
 
+/* bild i index */
 section {
   grid-column: 7/13;
   grid-row: 3/4;
 }
 
+/* bild i index */
 article#one {
   grid-column: 7/13;
   grid-row: 4/5;
 }
 
+/* bild i index */
 article#two {
   grid-column: 1/7;
   grid-row: 4/5;
 }
 
+/* bild i index */
 article#three {
   grid-column: 1/7;
   grid-row: 5/6;
 }
 
+/* text */
 article#five {
   grid-column: 1/7;
   grid-row: 6/7;
 }
 
-/*om.html*/
+/* bil i om.html */
 article#seven {
   grid-column: 1/13;
   grid-row: 4/5;
 }
 
+/* knappen i nyheter.html */
 .simon {
   grid-column: 1/13;
   grid-row: 3/5;
@@ -58,21 +68,25 @@ article#seven {
   height: 200px;
 }
 
+/* knappen i nyheter.html */
 .simon:hover {
   font-weight: bold;
   background-color: blue
 }
 
+/* bild på nyheter.html */
 article#ten {
   grid-column: 1/13;
   grid-row: 3/5;
 }
 
+/* grå rutan längst ner på sidan */
 footer {
   grid-column: 1/13;
   grid-row: 6/7;
 }
 
+/* grå rutan längs ner på */
 footer#two {
   grid-column: 1/13;
   grid-row: 9/10;
@@ -85,41 +99,49 @@ footer#two {
     grid-row: 1/2;
   }
 
+  /* menybaren */
   #myTopnav {
     grid-column: 1/-1;
     grid-row: 2/3;
   }
 
+  /* bild i index */
   nav {
     grid-column: 1/-1;
     grid-row: 3/4;
   }
 
+  /* bild i index */
   section {
     grid-column: 1/-1;
     grid-row: 4/5;
   }
 
+  /* bild i index */
   article#one {
     grid-column: 7/13;
     grid-row: 4/5;
   }
 
+  /* bild i index */
   article#two {
     grid-column: 1/-1;
     grid-row: 6/7;
   }
 
+  /* bild i index */
   article#three {
     grid-column: 1/-1;
     grid-row: 5/6;
   }
 
+  /* text */
   article#five {
     grid-column: 1/7;
     grid-row: 6/7;
   }
 
+  /* den grå rutan längst ner på sidan */
   footer {
     grid-column: 1/-1;
     grid-row: 8/9;

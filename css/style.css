@@ -1,36 +1,44 @@
+/* rubrik */
 h1 {
   font-size: 100px;
 }
 
+/*text */
 body {
   text-align: center;
   margin: 0;
   font-family: 'Playfair Display', serif;
 }
 
+/* rubrik */
 header {
   background-color: blue;
 }
 
+/* bild i html */
 nav {
   padding: 20px solid blue;
   justify-content: center;
 }
 
+/* bild i html */
 section {
   padding: 20px solid blue;
   justify-content: center;
 }
 
+/* längst ner, den grå rutan */
 footer {
   background-color: grey;
 }
 
+/* menybaren under rubriken */
 .topnav {
   background-color: grey;
   overflow: hidden;
 }
 
+/* menybaren under rubriken */
 .topnav a {
   float: left;
   display: block;
@@ -41,20 +49,24 @@ footer {
   font-size: 17px;
 }
 
+/* menybaren, hover funktion */
 .topnav a:hover {
   background-color: blue;
   color: black;
 }
 
+/* menybaren, hover funktion  */
 .topnav a.active {
   background-color: blue;
   color: black;
 }
 
+/* menybaren */
 .topnav .icon {
   display: none;
 }
 
+/* knappen längst som tar dig högst upp på sidan */
 #myBtn {
   display: block;
   /* Hidden by default */
@@ -88,6 +100,7 @@ footer {
   /* Färgen när den hovrar */
 }
 
+/* knappen på nyheter.html  */
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -97,6 +110,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
+/* styling på knappen i nyheter.html  */
 input[type=submit] {
   background-color: #4CAF50;
   color: white;
@@ -105,15 +119,18 @@ input[type=submit] {
   cursor: pointer;
 }
 
+/* hoovrings funktion på knappen i nyheter.html  */
 input[type=submit]:hover {
   background-color: #45a049;
 }
 
+/* container för sidan  */
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
 }
 
+/* övrig styling  */
 .column {
   width: 50%;
   margin-top: 6px;
@@ -122,6 +139,7 @@ input[type=submit]:hover {
   margin-right: auto;
 }
 
+/* knappen på nyheter.html, färgen när man hovrar på den  */
 .simon:hover {
   background-color: blue
 }
@@ -132,6 +150,7 @@ input[type=submit]:hover {
   clear: both;
 }
 
+/* media queries  */
 @media screen and (max-width: 600px) {
   .column, input[type=submit] {
     width: 100%;
